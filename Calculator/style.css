@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background: rgb(227 227 227);
+}
+.main {
+    border-radius: 50px;
+    width: 25%;
+    height: 700px;
+    box-shadow: rgb(213, 210, 208) 5px 5px 15px,
+                rgb(255, 255, 255) -5px -5px 15px;
+}
+.submain {
+    border-radius: 50px;
+    margin: 10px;
+    width: 95%;
+    height: 96%;
+}
+.displaybox {
+    margin: 70px 20px 30px;
+    border: 2px solid white;
+    width: 86%;
+    height: 60px;
+    font-size: 30px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    box-shadow: inset 5px 10px 30px #D1D9E6,
+                inset -10px -10px 30px #ecf0f3;
+}
+.buttonlayout {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.button {
+    display: inline-block;
+    border: 1px solid white;
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    margin: 15px 40px;
+    border-radius: 5px;
+    box-shadow: rgb(213, 210, 208) 10px 5px 15px,
+                rgb(255, 255, 255) -10px -5px 15px;
+}
+.button:active {
+    background-color: #D1D9E6;
+    box-shadow: 0 5px #666;
+    transform: translateY(-5px);
+}   
+.spanning-row{
+    grid-row: span 2;
+    height: 170px;
+}
+.spanning-col{
+    grid-column: span 2;
+    width: 170px;
+}
+/* input[type="checkbox"]{
+    -webkit-appearance: none;
+     visibility: hidden;
+     display: none;
+}
+.check{
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 40px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+}
+input[type="checkbox"]:checked ~ .check{
+    background: #092c3e;
+}
+.check::before{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: #092c3e;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+input[type="checkbox"]:checked ~ .check::before{
+    transform: translateX(40px);
+}
+.check::after{
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(-40px);
+}
+input[type="checkbox"]:checked ~ .check::after{
+    transform: translateX(40px);
+} */
